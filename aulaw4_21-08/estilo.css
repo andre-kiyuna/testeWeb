@@ -1,0 +1,29 @@
+/* Seletor de elementos */
+p{
+    color: blue;
+}
+h1{
+    color: deeppink;
+}
+
+/*Seletor de id*/
+ #mesmo{
+    text-align: center;
+    color: rgb(0, 255, 13);
+ }
+.myclass{
+    border-style: ridge;
+}
+/* junção de seletores */ 
+li.myclass{
+    font-size: xx-large;
+}
+
+.newclass{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.teste-cores{
+    padding: 2%;
+    background-color: rgb(30, 144, 255,0.4);
+}
