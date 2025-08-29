@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(241, 184, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+td:hover{
+    background-color: crimson;
+}
