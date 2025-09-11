@@ -1,0 +1,30 @@
+/* seletor de elementos */
+body{
+    background-color: cadetblue;
+    font-family: sans-serif
+}
+/* seletor de classe */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+div{
+    border-style: double;
+}
+.menu{
+    background-color: lightblue;
+    padding: 2rem;
+    margin-right: 1rem;/**/
+    width: 30%;
+}
+.item-menu{
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+}
+.conteudo{
+    padding: 2rem;
+    width: 70%;
+}
+.item-menu:hover{
+    background-color: cornflowerblue;
+}
