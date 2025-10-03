@@ -1,4 +1,4 @@
-/* Seletor universal (*) e de elementos (body) para resetar estilos básicos */
+/* Seletor universal de elementos (body) para resetar estilos */
 body {
     background-color: #f0f8ff;
     font-family: sans-serif;
@@ -65,8 +65,7 @@ body {
      border-bottom: 2px solid #4682b4;
      padding-bottom: 5px;
 }
-/* ---- ESTILO RESPONSIVO ---- */
-/* Media Query: Aplica estes estilos apenas quando a tela for menor ou igual a 768px */
+/* Aplica estes estilos apenas quando a tela for menor ou igual a 768px */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -80,5 +79,6 @@ body {
          width: 100%;
          padding: 15px;
     }
+
 
 }
