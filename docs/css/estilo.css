@@ -1,0 +1,84 @@
+/* Seletor universal de elementos (body) para resetar estilos */
+body {
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}  
+/* Seletor de classe para o container principal */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+/* Seletor de classe para a área do menu */
+.menu {
+    width: 25%;
+    background-color: #add8e6;
+    padding: 20px;
+    height: 150vh;
+}
+/* Estilo para a foto de perfil */
+.foto-perfil {
+    display: block; /* Garante que a margem automática funcione */
+    width: 150px; /* Define a largura da imagem */
+    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Deixa a borda totalmente redonda */
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+    margin: 0 auto 20px; /* Centraliza a foto e adiciona uma margem embaixo */
+}
+/* Seletor de classe para a área de conteúdo */
+.conteudo {
+    width: 75%;
+    padding: 30px;
+} 
+/* Seletor de classe para cada item da lista do menu */
+.item-menu {
+    background-color: #87ceeb;
+    margin: 10px 0px;
+    padding: 10px;
+    list-style-type: none;
+}
+/* Seletor de pseudo-classe para o efeito 'hover' nos itens do menu */
+.item-menu:hover {
+    background-color: #4682b4;
+}
+/* Estilizando os links dentro do menu */
+.item-menu a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+/* Seletor de ID para estilizar seções específicas */
+#pessoais {
+    border-left: 5px solid #add8e6;
+    padding-left: 15px;
+}
+/* Seletor de ID para estilizar a seção de objetivo */
+#objetivo {
+    margin-top: 20px;
+}
+
+/* Seletor para os títulos de nível 2 (H2) dentro da área de conteúdo */
+.conteudo h2 {
+     color: #4682b4;
+     border-bottom: 2px solid #4682b4;
+     padding-bottom: 5px;
+}
+/* Aplica estes estilos apenas quando a tela for menor ou igual a 768px */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .menu {
+         width: 100%;
+         height: auto;
+         text-align: center;
+    }
+    .conteudo {
+         width: 100%;
+         padding: 15px;
+    }
+
+
+}
